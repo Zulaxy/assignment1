@@ -1,0 +1,6 @@
+.footer {
+  background-color: blanchedalmond;
+  height: 5vh;
+  display: flex;
+  justify-content: space-between;
+}
