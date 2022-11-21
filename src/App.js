@@ -6,6 +6,8 @@ import GalleryPage from "./pages/GalleryPage";
 import ContactPage from "./pages/ContactPage";
 import React from "react";
 
+import "./global.css"
+
 import Layout from "./layout/Layout";
 
 function App() {
