@@ -6,8 +6,9 @@ import Gallery from "./Gallery";
 
 const Home = () => {
   return (
-    <div className={styles.main}>
+    <div className={styles.main__home}>
       <img
+        className={styles.home__img}
         src="https://images.pexels.com/photos/1172253/pexels-photo-1172253.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         alt=""
       />
@@ -18,7 +19,6 @@ const Home = () => {
       </p>
       <Gallery />
       {/* <div>the 4 boxes</div> */}
-      
     </div>
   );
 };

@@ -19,4 +19,14 @@ export const galleryItems = [
     imgLink:
       "https://images.pexels.com/photos/13524648/pexels-photo-13524648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
+  {
+    id: 5,
+    imgLink:
+      "https://images.pexels.com/photos/13524648/pexels-photo-13524648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  },
+  {
+    id: 6,
+    imgLink:
+      "https://images.pexels.com/photos/13524648/pexels-photo-13524648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  },
 ];

@@ -30,12 +30,12 @@
 .nav__links a:hover,
 .nav__links a:active,
 .nav__links a.active {
-  background: #f8df00;
+  background: #acd0ee;
   border-color: #292929;
   color: #292929;
 }
 
-@media (min-width: 800px) {
+/* @media (min-width: 800px) {
   .nav-links {
     flex-direction: row;
   }
@@ -48,4 +48,4 @@
     color: white;
     text-decoration: none;
   }
-}
+} */

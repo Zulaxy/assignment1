@@ -6,8 +6,9 @@ import styles from "./Footer.module.css";
 const Footer = () => {
   return (
     <div className={styles.footer}>
-      <p>Footer</p>
+      <p>Galin Malchev 2022</p>
       <button
+      className={styles.footer__button}
         onClick={() => {
           console.log("The current page is:", window.location.pathname);
         }}
