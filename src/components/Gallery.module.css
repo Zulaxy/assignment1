@@ -6,8 +6,8 @@
   text-align: center;
 }
 
-.pl_list {
-  width: 100%;
+.pl__list {
+  width: 80vw;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;

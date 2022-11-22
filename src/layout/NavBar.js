@@ -8,22 +8,54 @@ const NavBar = () => {
     <nav className={styles.main__navigation}>
       <ul className={styles.nav__links}>
         <li>
-          <NavLink to="/" exact>
+          <NavLink
+            to="/home"
+            exact
+            style={({ isActive }) => ({
+              background: isActive ? "#acd0ee" : "",
+              borderColor: isActive ? "#292929" : "",
+              color: isActive ? "#292929" : "",
+            })}
+          >
             Home
           </NavLink>
         </li>
         <li>
-          <NavLink to="/gallery" exact>
+          <NavLink
+            to="/gallery"
+            exact
+            style={({ isActive }) => ({
+              background: isActive ? "#acd0ee" : "",
+              borderColor: isActive ? "#292929" : "",
+              color: isActive ? "#292929" : "",
+            })}
+          >
             Gallery
           </NavLink>
         </li>
         <li>
-          <NavLink to="/about" exact>
+          <NavLink
+            to="/about"
+            exact
+            style={({ isActive }) => ({
+              background: isActive ? "#acd0ee" : "",
+              borderColor: isActive ? "#292929" : "",
+              color: isActive ? "#292929" : "",
+            })}
+          >
             About
           </NavLink>
         </li>
         <li>
-          <NavLink to="/contact" exact>
+          <NavLink
+            to="/contact"
+            exact
+            style={({ isActive }) => ({
+              background: isActive ? "#acd0ee" : "",
+              borderColor: isActive ? "#292929" : "",
+              color: isActive ? "#292929" : "",
+            })}
+          >
             Contact
           </NavLink>
         </li>
