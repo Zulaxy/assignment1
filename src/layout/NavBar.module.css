@@ -45,4 +45,15 @@
   .nav__links li {
     margin: 0 0.5rem;
   }
+
+  .nav__links a {
+    border: 1px solid transparent;
+    color: #292929;
+    text-decoration: none;
+    padding: 0.1rem;
+  }
+
+  .nav__links {
+    padding: 10px;
+  }
 }
