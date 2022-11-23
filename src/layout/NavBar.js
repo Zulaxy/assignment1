@@ -10,7 +10,6 @@ const NavBar = () => {
         <li>
           <NavLink
             to="/home"
-            exact
             style={({ isActive }) => ({
               background: isActive ? "#acd0ee" : "",
               borderColor: isActive ? "#292929" : "",
@@ -23,7 +22,6 @@ const NavBar = () => {
         <li>
           <NavLink
             to="/gallery"
-            exact
             style={({ isActive }) => ({
               background: isActive ? "#acd0ee" : "",
               borderColor: isActive ? "#292929" : "",
@@ -36,7 +34,6 @@ const NavBar = () => {
         <li>
           <NavLink
             to="/about"
-            exact
             style={({ isActive }) => ({
               background: isActive ? "#acd0ee" : "",
               borderColor: isActive ? "#292929" : "",
@@ -49,7 +46,6 @@ const NavBar = () => {
         <li>
           <NavLink
             to="/contact"
-            exact
             style={({ isActive }) => ({
               background: isActive ? "#acd0ee" : "",
               borderColor: isActive ? "#292929" : "",
