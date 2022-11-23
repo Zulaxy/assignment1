@@ -6,7 +6,7 @@ import styles from "./Footer.module.css";
 const Footer = () => {
   return (
     <div className={styles.footer}>
-      <p>Galin Malchev 2022</p>
+      <p classname={styles.text}>Galin Malchev 2022</p>
       <button
       className={styles.footer__button}
         onClick={() => {
